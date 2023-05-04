@@ -20,14 +20,12 @@
 		if (age < 18) {
 			alert('Вхід на сайт ЗАБОРОНЕНО !');
 		} else if (age > 22) {
-			alert(`Ласкаво просимо ! ${name}`);
+			alert(`Ласкаво просимо ${name} !`);
 		} else if (age >= 18 && age <=22) {
 			const qwestion = confirm('Ви впевнені що хочете продовжити ?');
-		} if (qwestion) {
+		 if (qwestion) {
 			alert(`Ласкаво просимо ! ${name}`);
 		} else {
-			alert(`${name},Ви не можете відвідати цей сайт !`);
+			alert(`${name}, до наступної зустрічі !`);
 		}
-
-
-
+	}
